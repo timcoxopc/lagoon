@@ -27,8 +27,6 @@ _paq.push(['enableLinkTracking']);
 sub_filter_once on;
 EOF
 
-    fix-permissions /etc/nginx/conf.d/
-
 fi
 
 # Tag manager configuration.
@@ -47,7 +45,5 @@ g.type='text/javascript'; g.async=true; g.src='${MATOMO_TAG_MANAGER_URL}'; s.par
 <!-- End Matomo Tag Manager -->";
 sub_filter_once on;
 EOF
-
-    fix-permissions /etc/nginx/conf.d/
 
 fi
